@@ -8,15 +8,36 @@
 // 1. **Simple Array Loop**  
 //    Write a `for` loop that logs each element of the array `[5, 10, 15, 20]` to the console.  
 
+// const array = [5, 10, 15,20];
+
+// function loop (arr){
+//     for (let i=0; i < arr.length; i++ ){
+//         console.log(arr[i]);
+//     }
+// }
+
+// loop(array);
+
 
 
 // 2. **Summing Array Elements**  
 //    Use a loop to calculate the sum of all numbers in `[1, 2, 3, 4, 5]` and log the result.  
 
+// const array = [1, 2, 3, 4, 5];
 
+// function sum(arr){
+//     let sum = 0;
+//     for(let i=0; i<arr.length; i++){
+//         sum += arr[i];
+//     }
+//     return sum;
+// }
+
+// sum(array);
 
 // 3. **Filter Even Numbers**  
 //    Loop through `[12, 7, 9, 24, 18]` and create a new array containing only even numbers.  
+
 
 
 
