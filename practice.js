@@ -95,37 +95,60 @@ const users =
 // 6. **Calculate Average Age**  
 //    Loop through `users` and compute the average age.  
 
-// 
+// function avgAge(arr){
+//     let sum = 0;
+//     for(let i=0; i < arr.length; i++){
+//        sum += arr[i].age; 
+//     }
+//     return Math.floor((sum / arr.length));;
+// }
 
+// avgAge(users);
+// console.log(avgAge(users))
 // ### **Section 3: Built-in Loop Methods**  
 
 
 // 7. **`forEach` Practice**  
 //    Use `forEach` to log each element 
-const myArray = ["apple", "banana", "cherry"]; 
+// const myArray = ["apple", "banana", "cherry"]; 
+
+// myArray.forEach((element) => {
+//     console.log(element);
+// })
 
 
 // 8. **`map` Transformation**  
-const thisArray = [1, 2, 3];
-// use `map` to create a new array where each number is doubled. 
+// const thisArray = [1, 2, 3];
+// // use `map` to create a new array where each number is doubled. 
 
+// const doubled = thisArray.map(num => num * 2); 
+// console.log(doubled);
+// // 9. **`filter` with Condition**  
+// const grades =[15, 3, 25, 8, 10];
 
-// 9. **`filter` with Condition**  
-const grades =[15, 3, 25, 8, 10];
+// //use `filter` to keep numbers greater than 10.  
 
-//use `filter` to keep numbers greater than 10.  
+// const greaterThanTen = grades.filter(num => num > 10);
 
-
+// console.log(greaterThanTen);
 
 // 10. **`find` First Match**  
 //     Use `find` to get the first number > 50 in 
 // 
-const finder = [20, 45, 60, 70]; 
+// const finder = [20, 45, 60, 70]; 
+
+// const firstGreater = finder.find(num => num > 50);
+
+// console.log(firstGreater);
 
 // 11. **`reduce` for Aggregation**  
 //     Use `reduce` to multiply all numbers in `[2, 3, 4]` (result: `24`).  
 
-// ---
+// const arr = [2,3,4]
+
+// const multAll = arr.reduce((acc, num) => acc * num, 1 );
+
+// console.log(multAll);
 
 // ### **Section 4: String Manipulation**  
 // **Difficulty: Mixed**  
