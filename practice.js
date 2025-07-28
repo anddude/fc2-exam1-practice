@@ -38,7 +38,20 @@
 // 3. **Filter Even Numbers**  
 //    Loop through `[12, 7, 9, 24, 18]` and create a new array containing only even numbers.  
 
+// const array = [12, 7, 9, 24, 18];
 
+
+// function evens(arr){
+//     let newArr = [];
+//     for(let i=0; i < arr.length; i++){
+//         if((arr[i] % 2) === 0){
+//             newArr.push(arr[i]);
+//         }
+//     }
+//     return newArr;
+// }
+
+// console.log(evens(array));
 
 
 // ---
@@ -49,16 +62,35 @@
 // 4. **Access Object Properties**  
 //    Given:  
  
-const users = [{name: "Alice", age: 25}, {name: "Bob", age: 30}];
+const users = 
+[
+    {name: "Alice", 
+        age: 25},
+     {name: "Bob", 
+        age: 30}];
 
-//    Loop through `users` and log each user’s name.  
+// //    Loop through `users` and log each user’s name.  
 
+// function nameFind(arr){
+//     for (let i=0; i < arr.length; i++){
+//         console.log(users[i].name);
+//     }
+// }
 
+// nameFind(users);
 
 // 5. **Find a Specific Object**  
 //    Using the `users` array above, find and log the object where `name === "Bob"`.  
 
+// function findBob(arr){
+//     for(let i=0; i < arr.length; i++){
+//         if(arr[i].name === "Bob"){
+//             console.log(arr[i]);
+//         }
+//     }
+// }
 
+// findBob(users);
 
 // 6. **Calculate Average Age**  
 //    Loop through `users` and compute the average age.  
