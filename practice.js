@@ -219,8 +219,11 @@ const users =
 // 18. **Chaining Methods**  
 //    Chain `map` (multiply by 3) and `filter` (keep even numbers).  
 
-let myNums2 = [1, 2, 3, 4];
+// let myNums2 = [1, 2, 3, 4];
 
+// let newMyNums2 = myNums2.map(num => num *= 3).filter(num => num % 2 === 0);
+
+// console.log(newMyNums2);
 
 
 // ### **Section 6: Mixed Challenges**  
@@ -228,32 +231,70 @@ let myNums2 = [1, 2, 3, 4];
 // 19. **Nested Object Access**  
 //     Given:  
    
-const data = [{id: 1, items: ["baseball", "soccer ball"]},   {id: 2, items: ["Game Boy"]}];
+// const data = [{id: 1, items: ["baseball", "soccer ball"]},   {id: 2, items: ["Game Boy"]}];
 
-//     Log all `items` for each object.  
+// //     Log all `items` for each object.  
 
+// function log(data){
+//     for(let i=0; i < data.length; i++){
+//         for (let j = 0; j < data[i].items.length; j++){
+//             console.log(data[i].items[j]);
+//         }
+//     }
+// }
 
+// log(data);
 // 20. **Count String Occurrences**  
 //     Loop through mixedLetters  and count how many times "a" appears.  
 const mixedLetters = ["a", "b", "a", "c"];
 
-// 21. **Flatten an Array**  
-//     Use `reduce` or loops to flatten the array flat into `[1, 2, 3, 4]; 
+let count = 0;
+for (let letter of mixedLetters) {
+  if (letter === "a") {
+    count++;
+  }
+}
 
-const flat = [[1, 2], [3, 4]];
+console.log(count);
 
-// 22. **Sort and Reverse**  
-//     Sort `ages` in ascending order, then reverse it.  
-const ages = [10, 2, 5, 8];
 
-// 23. **Extract Object Keys**  
-//     Given `member1`, loop through its keys and log them.  
-const member1 = {name: "Tom", age: 28};
+// // 21. **Flatten an Array**  
+// //     Use `reduce` or loops to flatten the array flat into `[1, 2, 3, 4]; 
 
-// 24. **Merge Arrays**  
-//     Merge `firstArray` and `secondArray` into one array using a loop or method.  
-let firstArray = [1, 2];
-let secondArray = [3, 4];
+// const flat = [[1, 2], [3, 4]];
 
+// const flattened = flat.reduce((acc, curr) => acc.concat(curr), []);
+
+
+// // 22. **Sort and Reverse**  
+// //     Sort `ages` in ascending order, then reverse it.  
+// const ages = [10, 2, 5, 8];
+
+// const sortedAndReversed = ages.sort((a, b) => a - b).reverse();
+
+
+// // 23. **Extract Object Keys**  
+// //     Given `member1`, loop through its keys and log them.  
+// const member1 = {name: "Tom", age: 28};
+
+// function keyLoop(obj){
+//     for(let key in obj){
+//         console.log(key);
+//     }
+// }
+
+// keyLoop(member1);
+
+// // 24. **Merge Arrays**  
+// //     Merge `firstArray` and `secondArray` into one array using a loop or method.  
+// let firstArray = [1, 2];
+// let secondArray = [3, 4];
+
+// // const newArray = firstArray.concat(secondArray);
+
+// //or 
+// const newArray = [...firstArray, ...secondArray];
+
+// console.log(newArray)
 
 
