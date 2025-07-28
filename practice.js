@@ -156,24 +156,37 @@ const users =
 // 12. **Slice a String**  
     // Slice `"JavaScript"` to extract `"Script"`.  
 
-    const string1 = "JavaScript";
+    // const string1 = "JavaScript";
+
+    // const newString = string1.slice(4);
+
+    // console.log(newString)
 
 // 13. **Split and Join**  
 //     Split `"hello-world"` into an array by `-`, then join back with `_`.
 // intended output: "hello_world"
 
-const splitString = "hello-world"
+// const splitString = "hello-world"
+
+// const newArr = splitString.split(`-`).join(`_`);
+
+// console.log(newArr)
 
 // 14. **Uppercase Transformation**  
 //     Convert `"example"` to uppercase using a string method.  
 
-let transform = "example";
+// let transform = "example";
+
+// let newTransform = transform.toUpperCase();
+
+// console.log(newTransform);
 
 // 15. **Check Substring**  
 //     Check if `"programming"` contains `"gram"` and log `true` or `false`.  
 
- let spellCheck = "programming"
+//  let spellCheck = "programming";
 
+// console.log(spellCheck.includes(`gram`));
 
 // ### **Section 5: Array Transformations with Functions**  
 // 
@@ -181,16 +194,27 @@ let transform = "example";
 // 16. **Apply Function to Array**
 //   Apply `addTwo` to each element in `[3, 6, 9]` using `map`.   
 
-const addTwo = num => num + 2;
+// const addTwo = num => num + 2;
 
-let myNums = [3, 6, 9];
+// let myNums = [3, 6, 9];
+
+// const newMyNums = myNums.map(num => addTwo(num))
+// console.log(newMyNums);
 
  
 
 // 17. **Custom Filter Function**  
 //     Write a function `isLongWord(word)` that returns `true` if `word.length > 5`.  
 //     Use it to filter myFruits 
-const myFruit = ["apple", "banana", "kiwi"];  
+// const myFruit = ["apple", "banana", "kiwi"]; 
+
+// function isLongWord(word){
+//     return word.length > 5;
+// }
+
+// const longFruits = myFruit.filter(isLongWord);
+
+// console.log(longFruits)
 
 // 18. **Chaining Methods**  
 //    Chain `map` (multiply by 3) and `filter` (keep even numbers).  
